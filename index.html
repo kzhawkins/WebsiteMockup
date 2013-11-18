@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap Mockup</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap-responsive.css" />
+	<link rel="stylesheet" href="css/site.css" />
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">Company X</a>
+				
+				<a data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				
+				<div class="collapse nav-collapse">
+					<form action="" class="navbar-search pull-right">
+						<input type="text" class="search-query" placeholder="search..."/>
+					</form>
+					
+					<ul class="nav pull-right">
+						<li class="active"><a href="index.html">Home</a>
+						</li>
+						<li><a href="gallery.html">Gallery</a>
+						</li>
+						<li><a href="about.html">About</a>
+						</li>
+						<li><a href="" data-toggle="modal" data-target="#modal-contact-form">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- end nav -->
+
+
+<!-- contact -->
+	<div class="modal hide fade" id="modal-contact-form">
+		<div class="modal-header">
+			<button class="close" data-dismiss="modal">&times;</button>
+			<h3>Contact Us</h3>
+		</div>
+		
+		<div class="modal-body">
+			<form action="" class="form-horizontal">
+				<div class="control-group">
+					<label for="contact-name" class="control-label">Name:</label>
+					
+					<div class="controls">
+						<input type="text" id="contact-name" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label for="contact-email" class="control-label">Email:</label>
+					
+					<div class="controls">
+						<input type="email" id="contact-email" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label for="contact-message" class="control-label">Message:</label>
+					
+					<div class="controls">
+						<textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<div class="controls">
+						<input type="submit" class="btn btn-primary" value="Send Message" />
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		<div class="modal-footer">
+			<a href="" data-dismiss="modal" class="btn">Cancel</a>
+		</div>
+	</div>
+	
+	
+<!-- banner -->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="span4">
+					<h1>Featured Title Goes Here</h1>
+					
+					<p class="lead">Providing services so that you don't have to break a sweat. <br>
+						Readymade pop-up raw denim slow-carb nulla.
+					</p>
+					
+					<div class="c-cta">
+						<div class="btn-group">
+							<a href="" class="btn btn-info btn-large">Sign Up</a>
+							<a href="" class="btn btn-large">Free Trial</a>
+						</div>
+					</div>
+					
+					<p><a href="">Read more about Company X &raquo;</a></p>
+				</div>
+				
+				<div class="span8">
+					<img src="images/screen.png" alt="Tuts+ Hub" />
+				</div>
+			</div>
+			
+			<hr />
+		</div> <!-- end container -->
+	</section>
+	
+	
+	<div class="container">
+		<!-- comp info -->
+		<section>
+			<h3>The Company</h3>
+
+			<div class="row">
+				<div class="span8">
+					<p>High Life laborum excepteur artisan, umami sunt deserunt nisi small batch. Mixtape sapiente fashion axe sriracha. Sed Godard pickled occaecat elit post-ironic, labore deserunt sapiente wolf. Laborum aute shabby chic, lomo Schlitz chia sustainable gentrify dreamcatcher yr post-ironic ut. Nisi irony Etsy, meh squid nihil elit VHS 90's laborum PBR&B gastropub. Literally organic keytar consequat. Nulla aliquip trust fund locavore Marfa, cardigan ad..</p>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				</div>
+				
+				<div class="span4">
+					<p class="well well-large lead text-center">Smarter thinking, leading edge technology and common sense. We conduct agile researh.</p>
+				</div>
+			</div>
+		</section>
+		
+		<hr />
+		
+		
+	<!-- TESTIMONIALS -->
+		<h3>Testimonials</h3>
+		
+		<div class="carousel slide" id="testimonials">
+			<ol class="carousel-indicators">
+				<li data-target="#testimonials" data-slide-to="0" class="active"></li>
+				<li data-target="#testimonials" data-slide-to="1"></li>
+				<li data-target="#testimonials" data-slide-to="2"></li>
+			</ol>
+		
+			<div class="carousel-inner">
+				<div class="item active">
+					<blockquote>
+						<p>Company X’s team are knowledgeable, meticulous, and professional. They provided an exceptional web site on time, and at a remarkable price.</p>
+						<small>Steve Jazz</small>
+					</blockquote>
+				</div>
+
+				<div class="item">
+					<blockquote>
+						<p>This firm knows what they are doing and they do it very well. If you are in need of a cutting edge website, these are your people. Commuication was great and their ideas too. Thanks again, your the best.</p>
+						<small>Travis</small>
+					</blockquote>
+				</div>
+
+				<div class="item">
+					<blockquote>
+						<p>They were wonderful to work with. They took my idea and made it happen. The team got all the work done on time and on budget.</p>
+						<small>Brent L.</small>
+					</blockquote>
+				</div>
+			</div>
+		</div> <!-- end carousel -->
+		
+		<hr />
+
+<section>
+			<p class="lead text-center">Would you like to in touch? Email us at <a href="">info@companyX.com</a>.</p>
+			
+			<hr />
+			
+			<ul class="inline text-center">
+				<li><strong>Follow Us On:</strong></li>
+				<li><a href="">Twitter</a></li>
+				<li><a href="">Facebook</a></li>
+				<li><a href="">LinkedIn</a></li>
+			</ul>
+			
+			<p class="text-center muted">&copy; Copyright 2013 Company X</p>
+		</section>
+	</div> <!-- end container -->
+	
+	
+	
+
+<!-- JavaScript -->
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.carousel').carousel({
+				interval: 5000
+			});
+		});
+	</script>
+
+</body>
+</html>
