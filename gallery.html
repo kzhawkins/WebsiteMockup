@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Bootstrap Mockup</title>
+	<title>Website Mockup</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
@@ -47,11 +47,57 @@
 	</div>
 <!-- end nav -->
 
+
+<!-- contact -->
+	<div class="modal hide fade" id="modal-contact-form">
+		<div class="modal-header">
+			<button class="close" data-dismiss="modal">&times;</button>
+			<h3>Contact Us</h3>
+		</div>
+		
+		<div class="modal-body">
+			<form action="" class="form-horizontal">
+				<div class="control-group">
+					<label for="contact-name" class="control-label">Name:</label>
+					
+					<div class="controls">
+						<input type="text" id="contact-name" />
+					</div>
+				</div>
+				<div class="control-group">
+					<label for="contact-email" class="control-label">Email:</label>
+					
+					<div class="controls">
+						<input type="email" id="contact-email" />
+					</div>
+				</div>
+
+				<div class="control-group">
+					<label for="contact-message" class="control-label">Message:</label>
+					
+					<div class="controls">
+						<textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+					</div>
+				</div>
+				
+				<div class="control-group">
+					<div class="controls">
+						<input type="submit" class="btn btn-primary" value="Send Message" />
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		<div class="modal-footer">
+			<a href="" data-dismiss="modal" class="btn">Cancel</a>
+		</div>
+	</div>
+<!-- end nav -->
+
     <div class="container">
 
-      <!--  Carousel -->
-      <!--  consult Bootstrap docs at 
-            http://twitter.github.com/bootstrap/javascript.html#carousel -->
+      <!--  carousel -->
+   
       <div id="this-carousel-id" class="carousel slide">
         <div class="carousel-inner">
           <div class="item active">
@@ -90,39 +136,40 @@
             </div>
           </div>
         </div><!-- .carousel-inner -->
-        <!--  next and previous controls here
-              href values must reference the id for this carousel -->
+       
           <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
           <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
       </div><!-- .carousel -->
       <!-- end carousel -->
 
-      <!-- Example row of columns -->
+      <!-- row of columns -->
       <div class="row">
         <div class="span4">
           <h2>Pre-Made</h2>
-           <p>Irony Godard dreamcatcher lo-fi, organic pickled meggings before they sold out cred. Gluten-free Echo Park fingerstache VHS, Truffaut narwhal 8-bit. XOXO asymmetrical direct trade, twee American Apparel. </p>
+           <p>Irony Godard dreamcatcher lo-fi, organic pickled meggings before they sold out cred. Gluten-free Echo Park fingerstache VHS, Truffaut narwhal 8-bit. XOXO 
+           asymmetrical direct trade, twee American Apparel. </p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
         <div class="span4">
           <h2>Modify</h2>
-           <p>Pitchfork fap High Life mixtape scenester chia. Aesthetic kale chips ugh messenger bag, Intelligentsia meh yr Shoreditch fap bicycle rights DIY. Next level wayfarers Marfa banjo PBR, beard sustainable. </p>
+           <p>Pitchfork fap High Life mixtape scenester chia. Aesthetic kale chips ugh messenger bag, Intelligentsia meh yr Shoreditch fap bicycle rights DIY. Next level 
+           wayfarers Marfa banjo PBR, beard sustainable. </p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
        </div>
         <div class="span4">
           <h2>Custom</h2>
-          <p>Street art sriracha 8-bit Schlitz. Ennui salvia Schlitz locavore VHS, quinoa dreamcatcher bespoke lo-fi church-key Marfa fixie small batch. Carles lomo shabby chic fashion axe Terry Richardson, retro whatever.</p>
+          <p>Street art sriracha 8-bit Schlitz. Ennui salvia Schlitz locavore VHS, quinoa dreamcatcher bespoke lo-fi church-key Marfa fixie small batch. Carles lomo shabby 
+          chic fashion axe Terry Richardson, retro whatever.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
       </div>
 
-      <hr>
+      <hr />
 
-     
- 
-	
-<section>
-			<p class="lead text-center">Would you like to in touch? Email us at <a href="">info@companyX.com</a>.</p>
+
+<!-- footer -->  
+	<section>
+			<p class="lead text-center">Would you like to get in touch? Email us at <a href="">info@companyX.com</a>.</p>
 			
 			<hr />
 			
@@ -140,7 +187,7 @@
 	
 	
 
-<!-- JavaScript -->
+<!-- javascript -->
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script>
@@ -150,6 +197,5 @@
 			});
 		});
 	</script>
-
 </body>
 </html>
